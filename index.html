@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fake Kolapo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: black;
+        color: white;
+        font-size: 23px;
+        font-family: 'Montserrat';
+        font-stretch: ultra-condensed;
+      }
+      .container {
+        /* width: 80%; */
+        margin: 0 10%;
+        margin-top: 400px;
+      }
+      .greet {
+        /* border-bottom: 2px solid white; */
+        text-decoration: underline;
+      }
+      .show {
+        color: #ce9374;
+      }
+      nav {
+        color: #ce9374;
+        margin-left: 10%;
+        font-size: 18px;
+        margin-top: 100px;
+        padding: 0;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 22px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #ce9374;
+        margin: 0;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      .icons{
+        opacity: 0;
+      }
+      /* @media (max-width:1080px){
+        .icons{
+          display: none;
+        }
+      } */
+      @media (max-width: 768px) {
+        .texts{
+          opacity: 0;
+        }
+        .icons{
+          opacity: 1;
+          margin-bottom: 10%;
+          transition: 1s ;
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span class="greets">Hi</span>
+      <br />
+
+      <p>
+        My name is Kolapo Oni. I am a Game Designer & Writer with android mobile
+        app development experience. I am currently making a game called
+        <span class="show">Fading</span>.
+      </p>
+      <p>
+        I love <span class="show">music</span>, art &
+        <span class="show">photography</span>. I live in Lagos, Nigeria.
+      </p>
+    </div>
+    <nav class="texts">
+      <ul>
+        <li>
+          </a
+          ><a href="">email</a>
+        </li>
+        <li>
+          <a href="">twitter</a>
+        </li>
+        <li>
+          <a href="">blog</a>
+        </li>
+        <li>
+          </a
+          ><a href="">github</a>
+        </li>
+        <li>
+          <a class="show icon" href=""><i class="fas fa-google_play"></i></a
+          ><a href="">google play</a>
+        </li>
+        <li><a href="">itch</a></li>
+      </ul>
+    </nav>
+    <nav class="icons">
+      <ul>
+        <li><a href="" class="show icon"><i class="fas fa-envelope"></i></li>
+        <li><a class="show icon" href=""><i class="fab fa-twitter"></i></i></a></li>
+        <li><a class="show icon" href=""><i class="fab fa-wordpress"></i></a></li>
+        <li><a class="show icon" href=""><i class="fas fa-play-circle"></i></a></li>
+        <li><a class="show icon" href=""><i class="fab fa-github"></i></a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
